@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-        <dimen name="ratingSliderFontSize">14sp</dimen>
+
+    <dimen name="ratingSliderFontSize">14sp</dimen>
+
 </resources>
