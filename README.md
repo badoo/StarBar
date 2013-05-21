@@ -30,8 +30,8 @@ StarBar is provided as an Android library project. See the Android developer web
     </RelativeLayout>
 There are some restrictions on what you can specify for **layout_width** and ** layout_height**.
 
-* **layout_width** must either be **match_parent**/**fill_parent** or fixed width.
-* ** layout_height** must be **wrap_content**.
+* **layout_width** must either be **match_parent** / **fill_parent** or fixed width.
+* **layout_height** must be **wrap_content**.
 
 <p>
 **3. Configuring rating ranges**
