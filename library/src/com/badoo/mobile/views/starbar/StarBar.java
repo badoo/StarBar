@@ -1,4 +1,4 @@
-package com.badoo.starbar;
+package com.badoo.mobile.views.starbar;
 
 import java.util.Arrays;
 

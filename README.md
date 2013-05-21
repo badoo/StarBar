@@ -4,6 +4,8 @@ StarBar
 A custom View class implementing a rating bar with 10 stars. The user can touch or swipe to select a rating between 1 and 10.
 The StarBar supports three rating ranges (red, yellow and green) that are indicated by different colored stars.
 
+![Screenshot](starbar-screenshot.png)
+
 Usage
 -----
 _For a working example of how to use StarBar see the Android project in the **sample** folder_.
