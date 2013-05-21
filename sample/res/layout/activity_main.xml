@@ -35,7 +35,7 @@
             android:textColor="#d0d0d0" />
     </FrameLayout>
 
-    <com.badoo.starbar.StarBar
+    <com.badoo.mobile.views.starbar.StarBar
         android:id="@+id/starBar"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"

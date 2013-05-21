@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.badoo.starbar"
+    package="com.badoo.mobile.views.starbar"
     android:versionCode="1"
     android:versionName="1.0" >
 

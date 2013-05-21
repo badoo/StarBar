@@ -1,4 +1,4 @@
-package com.badoo.starbar.sample;
+package com.badoo.mobile.views.starbar.demo;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -9,8 +9,8 @@ import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.badoo.starbar.StarBar;
-import com.badoo.starbar.StarBar.OnRatingSliderChangeListener;
+import com.badoo.mobile.views.starbar.StarBar;
+import com.badoo.mobile.views.starbar.StarBar.OnRatingSliderChangeListener;
 
 public class MainActivity extends Activity implements OnRatingSliderChangeListener, OnCheckedChangeListener {
 
