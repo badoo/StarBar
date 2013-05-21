@@ -21,14 +21,19 @@
         android:textSize="50sp"
         android:visibility="gone" />
 
-    <CheckBox
-        android:id="@+id/rangeCheckBox"
-        android:padding="8dp"
+    <FrameLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:background="#80000000"
-        android:text="Alternative Ranges"
-        android:textColor="#d0d0d0" />
+        android:padding="4dp" >
+
+        <CheckBox
+            android:id="@+id/rangeCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alternative Ranges"
+            android:textColor="#d0d0d0" />
+    </FrameLayout>
 
     <com.badoo.starbar.StarBar
         android:id="@+id/starBar"

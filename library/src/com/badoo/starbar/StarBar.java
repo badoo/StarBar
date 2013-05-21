@@ -18,7 +18,9 @@ import android.view.MotionEvent;
 import android.view.View;
 
 /**
- * A rating bar with 10 stars. The user can touch/drag to select a rating between 1 and 10.
+ * A rating bar showing 10 stars. The user can touch or swipe to select a rating between 1 and 10.
+ * The StarBar supports three rating ranges (red, yellow and green) that are indicated by different
+ * colored stars.
  * 
  * @author Erik Andre
  */
@@ -232,15 +234,17 @@ public class StarBar extends View {
     }
 
     /**
+     * Set a listener that will be invoked whenever the users interacts with the StarBar.
      * 
      * @param listener
+     *            Listener to set.
      */
     public void setOnRatingSliderChangeListener(OnRatingSliderChangeListener listener) {
         this.listener = listener;
     }
 
     /**
-     * To be called by the fragment during onConfigurationChanged.
+     * Should be called by the fragment during onConfigurationChanged.
      */
     public void configurationUpdated() {
         loadStars();
